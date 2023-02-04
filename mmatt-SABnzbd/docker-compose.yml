@@ -7,8 +7,7 @@ services:
       APP_PORT: 8080
 
   server:
-    image: lscr.io/linuxserver/sabnzbd:latest
-    init: true
+    image: linuxserver/sabnzbd:latest
     container_name: sabnzbd
     user: "1000:1000"
     environment:
@@ -20,3 +19,4 @@ services:
     ports:
       - 8080:8080
     restart: on-failure
+    init: true
