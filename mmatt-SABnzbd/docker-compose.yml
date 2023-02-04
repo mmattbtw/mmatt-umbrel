@@ -3,10 +3,10 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: mmatt-SABnzbd_server_1
+      APP_HOST: mmatt-SABnzbd_sabnzbd_1
       APP_PORT: 8080
 
-  server:
+  sabnzbd:
     image: linuxserver/sabnzbd:latest
     container_name: sabnzbd
     user: "1000:1000"
