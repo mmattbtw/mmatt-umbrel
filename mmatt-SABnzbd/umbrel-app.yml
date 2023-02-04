@@ -4,11 +4,10 @@ name: SABnzbd
 tagline: Free and easy binary newsreader
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "1.0.0"
+version: "1.0.1"
 port: 8080
 description: >-
-  Add your app's description here.
-
+  Dies of cringe!
 
   You can also add newlines!
 
