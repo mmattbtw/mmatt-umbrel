@@ -4,12 +4,13 @@ services:
   app_proxy:
     environment:
       APP_HOST: mmatt-sabnzbd_sabnzbd_1
-      APP_PORT: 8081
+      APP_PORT: 8080
 
   server:
     image: lscr.io/linuxserver/sabnzbd:latest
     init: true
     container_name: sabnzbd
+    user: "1000:1000"
     environment:
       - PUID=1000
       - PGID=1000
@@ -17,5 +18,5 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
     ports:
-      - 8081:8081
+      - 8080:8080
     restart: on-failure
