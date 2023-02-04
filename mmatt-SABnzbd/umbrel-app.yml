@@ -4,7 +4,7 @@ name: SABnzbd
 tagline: Free and easy binary newsreader
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "1.0.5"
+version: "1.0.6"
 port: 9000
 description: >-
   Dies of cringe!
