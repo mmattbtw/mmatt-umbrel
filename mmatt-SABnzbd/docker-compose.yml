@@ -10,7 +10,6 @@ services:
     image: linuxserver/sabnzbd:latest
     container_name: sabnzbd
     user: "1000:1000"
-    platforms: linux/amd64,linux/arm64
     environment:
       - PUID=1000
       - PGID=1000
