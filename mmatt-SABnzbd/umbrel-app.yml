@@ -1,10 +1,10 @@
 manifestVersion: 1
-id: mmatt-sabnzbd
+id: mmatt-SABnzbd
 name: SABnzbd
 tagline: Free and easy binary newsreader
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "1.0.3"
+version: "1.0.4"
 port: 9000
 description: >-
   Dies of cringe!
