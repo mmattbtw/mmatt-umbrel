@@ -16,7 +16,5 @@ services:
       - TZ=America/Chicago
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
-    ports:
-      - 8080:8080
     restart: on-failure
     init: true
